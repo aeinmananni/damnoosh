@@ -1,7 +1,8 @@
-export default function App() {
-  return (
-    <div>
-      <h1>App</h1>
-    </div>
-  );
+import { RouterProvider } from 'react-router';
+import router from './router/pageRouter.routes';
+
+function App() {
+  return <RouterProvider router={router} />;
 }
+
+export default App;
