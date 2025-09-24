@@ -1,15 +1,14 @@
+import { SAHeader } from '../../components';
 import { useChangeLanguage } from '../../hooks/useChangeLanguage';
 
 export default function LandingPage() {
-  const { t, i18n } = useChangeLanguage();
+  const { i18n } = useChangeLanguage();
   return (
-    <div className="p-4 bg-green-200/50 backdrop-filter backdrop-blur-md ">
-      <h1 className="text-2xl font-bold">{t('welcome')}</h1>
-      <div className="mt-4 flex gap-2">
-        <button onClick={() => i18n.changeLanguage('en')}>EN</button>
-        <button onClick={() => i18n.changeLanguage('de')}>DE</button>
-        <button onClick={() => i18n.changeLanguage('ar')}>AR</button>
-      </div>
+    <div className="flex flex-col w-full h-full ">
+      <SAHeader />
+      <button onClick={() => i18n.changeLanguage('ar')}>ar</button>
+      <button onClick={() => i18n.changeLanguage('de')}>de</button>
+      <button onClick={() => i18n.changeLanguage('en')}>en</button>
     </div>
   );
 }
