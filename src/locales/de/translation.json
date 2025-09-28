@@ -1,4 +1,13 @@
 {
   "welcome": "Willkommen in unserem Kräutertee-Shop",
-  "loginBtn": "Anmelden / Registrieren"
+  "loginBtn": "Anmelden / Registrieren",
+  "Home": "Startseite",
+  "Blog": "Blog",
+  "Contact Us": "Kontakt",
+  "About Us": "Über uns",
+  "Search": "Suche",
+  "Message": "Mit SAMASANG ist der Kauf von Steinen einfacher als je zuvor",
+  "Exp": "Genieße die Vielfalt der Steine und finde deine perfekte Wahl!",
+  "JoinCustomerButton": "Treten Sie dem Kundenclub bei",
+  "SpecialProduct": "Besondere Produkte von SAMASANG"
 }

@@ -1,4 +1,13 @@
 {
   "welcome": "Welcome to our Herbal Tea Shop",
-  "loginBtn": "Login / Sign Up"
+  "loginBtn": "Login / Sign Up",
+  "Home": "Home",
+  "Blog": "Blog",
+  "Contact Us": "Contact Us",
+  "About Us": "About Us",
+  "Search": "Search",
+  "Message": "With SAMASANG, stone shopping is easier than ever",
+  "Exp": "Enjoy the variety of stones and create your perfect choice!",
+  "JoinCustomerButton": "Join the Customer Club",
+  "SpecialProduct": "SAMASANG Special Products"
 }

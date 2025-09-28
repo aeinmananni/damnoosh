@@ -6,7 +6,7 @@ import './i18n.ts';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <main className="h-screen w-full overflow-hidden border-2 border-blue-500 bg-center bg-no-repeat bg-cover">
+    <main className="flex flex-col items-center min-h-screen w-full overflow-y-auto  bg-center bg-no-repeat bg-cover p-10">
       <App />
     </main>
   </StrictMode>
