@@ -1,1 +1,2 @@
-export * from './advertising';
+export * from './intro';
+export * from './stone-categories';
