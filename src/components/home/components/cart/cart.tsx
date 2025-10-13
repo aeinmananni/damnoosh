@@ -19,7 +19,7 @@ export default function Cart({ image, text }: CartProps) {
     >
       <div className="z-10 flex flex-col gap-3 p-5">
         <span className="text-lg font-mono">{t(text)}</span>
-        <SAButton className="border !btn-md bg-transparent border-slate-100 hover:scale-110">
+        <SAButton className="border !btn-md bg-transparent border-slate-100 hover:scale-110 text-slate-100">
           {t('viewBuyButton')}
         </SAButton>
       </div>
