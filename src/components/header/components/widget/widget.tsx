@@ -4,7 +4,7 @@ import { SAButton, SAInput } from '../../../custom';
 
 const buttonClassName = 'btn-outline btn-primary';
 export default function Widget() {
-  const { t, i18n } = useChangeLanguage();
+  const { t, language } = useChangeLanguage();
   return (
     <div className="w-full flex flex-col-reverse gap-5 md:gap-0 md:flex-row justify-between items-center">
       <div className="flex items-center w-full md:w-1/3">
@@ -14,11 +14,7 @@ export default function Widget() {
         <SAButton icon={SAMenuIcon} className="flex md:hidden" />
         <div className="flex items-center justify-end  gap-3  w-full">
           <SAButton icon={SAShoppingIcon} className={buttonClassName} />
-          <SAButton
-            icon={SALoginIcon}
-            className={buttonClassName}
-            isRotate={i18n.language !== 'ar'}
-          >
+          <SAButton icon={SALoginIcon} className={buttonClassName} isRotate={language !== 'ar'}>
             <span className="hidden md:flex">{t('loginBtn')}</span>
           </SAButton>
         </div>

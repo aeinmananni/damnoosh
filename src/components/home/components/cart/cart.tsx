@@ -7,14 +7,14 @@ type CartProps = {
 };
 
 export default function Cart({ image, text }: CartProps) {
-  const { i18n, t } = useChangeLanguage();
+  const { language, t } = useChangeLanguage();
   return (
     <div
       style={{ backgroundImage: `url(${image})` }}
-      className={`relative before:w-full before:h-full before:bg-gradient-to-r ${
-        i18n.language === 'ar' ? 'before:from-slate-800/70' : 'before:from-slate-800/10'
+      className={`relative before:w-full before:h-full before:bg-gradient-to-r border border-yellow-500 ${
+        language === 'ar' ? 'before:from-slate-800/70' : 'before:from-slate-800/10'
       }  before:via-slate-800/50  ${
-        i18n.language === 'ar' ? 'before:to-slate-800/10' : 'before:to-slate-800/70'
+        language === 'ar' ? 'before:to-slate-800/10' : 'before:to-slate-800/70'
       }  before:absolute  w-full h-full rounded-lg bg-cover bg-center shadow-lg flex flex-col items-end justify-end`}
     >
       <div className="z-10 flex flex-col gap-3 p-5">

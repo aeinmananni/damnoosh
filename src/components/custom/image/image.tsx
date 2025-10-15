@@ -1,7 +1,7 @@
-import type { ImgHTMLAttributes } from 'react';
+import type { HtmlHTMLAttributes } from 'react';
 
-type ImageProps = ImgHTMLAttributes<HTMLImageElement>;
+type ImageProps = HtmlHTMLAttributes<HTMLDivElement>;
 
 export default function Image({ ...props }: ImageProps) {
-  return <img {...props} />;
+  return <div {...props} className={`bg-cover bg-center ${props.className}`} />;
 }

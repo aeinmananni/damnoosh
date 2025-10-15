@@ -2,9 +2,16 @@ import { STONE_CATEGORIES_ITEMS } from '../../../../data';
 import { SACart } from '../cart';
 import Test_image from '../../../../images/stone-categories-images/categories-image1.jpg';
 
-export default function StoneCategories() {
+type StoneCategoriesProps = {
+  onReverse?: boolean;
+};
+
+export default function StoneCategories({ onReverse }: StoneCategoriesProps) {
   return (
-    <div className="w-full border-2 border-dashed border-slate-900 h-full p-2 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-auto gap-3 rounded-lg neon-border">
+    <div
+      style={{ direction: onReverse ? 'rtl' : 'ltr' }}
+      className="w-full border-2 border-dashed border-slate-900 h-full p-2 grid grid-cols-2  sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-auto gap-3 rounded-lg neon-border z-30"
+    >
       {STONE_CATEGORIES_ITEMS.map(it => (
         <SACart key={it.id} {...it} />
       ))}

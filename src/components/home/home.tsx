@@ -1,4 +1,4 @@
-import { SAIntro, SAStoneCategories, SADisplaySection } from './components';
+import { SAIntro, SAStoneCategories, SADisplaySection, SACustomerClubJoin } from './components';
 
 export default function Home() {
   return (
@@ -6,6 +6,9 @@ export default function Home() {
       <SAIntro />
       <SAStoneCategories />
       <SADisplaySection />
+      <SAStoneCategories onReverse={true} />
+      <SADisplaySection />
+      <SACustomerClubJoin />
     </>
   );
 }
