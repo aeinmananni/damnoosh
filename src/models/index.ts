@@ -30,3 +30,12 @@ export type ProjectsSampleType = {
 };
 
 export type SupportedLang = 'en' | 'ar' | 'de';
+
+
+
+export type CommentsType = {
+  id: number;
+  text: string;
+  name?: string;
+  image?: string;
+};

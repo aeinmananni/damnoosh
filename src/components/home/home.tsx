@@ -1,4 +1,10 @@
-import { SAIntro, SAStoneCategories, SADisplaySection, SACustomerClubJoin } from './components';
+import {
+  SAIntro,
+  SAStoneCategories,
+  SADisplaySection,
+  SACustomerClubJoin,
+  SACommentSection,
+} from "./components";
 
 export default function Home() {
   return (
@@ -9,6 +15,7 @@ export default function Home() {
       <SAStoneCategories onReverse={true} />
       <SADisplaySection />
       <SACustomerClubJoin />
+      <SACommentSection />
     </>
   );
 }
