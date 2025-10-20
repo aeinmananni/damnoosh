@@ -7,7 +7,7 @@ export default function CustomerClubMessage() {
   return (
     <div className="w-full h-full flex  items-center justify-center">
       <div className="flex flex-col justify-around h-full items-center gap-2">
-        <span className="text-3xl md:text-2xl lg:text-3xl ">
+        <span className="text-3xl md:text-2xl lg:text-3xl text-shadow-primary">
           {t("club-join-message")}
         </span>
         <SALogo
@@ -17,7 +17,9 @@ export default function CustomerClubMessage() {
             textClassName: "text-xl",
           }}
         />
-        <p className="w-2/3 text-justify">{t("club-join-description")}</p>
+        <p className="w-2/3 text-justify text-shadow-primary">
+          {t("club-join-description")}
+        </p>
         <SAButton className="border border-primary text-primary btn-outline flex items-center gap-2 w-1/2">
           {t("Create-Membership")}
         </SAButton>

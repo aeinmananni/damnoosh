@@ -1,7 +1,5 @@
+import { SABlog } from "../../components";
+
 export default function BlogPage() {
-  return (
-    <div>
-      <h1>Blog Page</h1>
-    </div>
-  );
+  return <SABlog />;
 }

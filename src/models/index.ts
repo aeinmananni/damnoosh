@@ -29,13 +29,24 @@ export type ProjectsSampleType = {
   description: MultiLangText;
 };
 
-export type SupportedLang = 'en' | 'ar' | 'de';
 
 
+export type BlogType = {
+  id: number;
+  image: string;
+  title: MultiLangText;
+  exp: MultiLangText;
+};
+
+export type SupportedLang = "en" | "ar" | "de";
 
 export type CommentsType = {
   id: number;
   text: string;
   name?: string;
   image?: string;
+};
+
+export type ContactType = Omit<CommentsType, "name"> & {
+  info: string;
 };

@@ -39,7 +39,7 @@ export default function Comments() {
             }}
           >
             <div
-              className={`italic border p-1 rounded-md border-yellow-500  ${
+              className={`italic border p-1 rounded-md neon-border-yellow  ${
                 opacity === 1
                   ? "text-slate-100 font-semibold"
                   : "text-slate-400"

@@ -7,16 +7,20 @@ export default function Advertising() {
   return (
     <div className="w-full  h-full flex flex-col items-center justify-evenly z-10 ">
       <div className="flex flex-col items-center gap-3">
-        <p className="text-sm md:text-lg   w-full">
+        <p className="text-sm md:text-lg   w-full text-shadow-primary">
           {parts[0]}
           <span className="text-blue-600 font-bold">SAMASANG</span>
           {parts[1]}
         </p>
-        <span className="font-semibold text-xs md:text-sm">{t('Exp')}</span>
+        <span className="font-semibold text-xs md:text-sm text-shadow-primary">
+          {t("Exp")}
+        </span>
       </div>
       <div className="flex items-center justify-around gap-3 p-2">
-        <SAButton className="btn-primary">{t('JoinCustomerButton')}</SAButton>
-        <SAButton className="!btn-outline !btn-primary">{t('SpecialProduct')}</SAButton>
+        <SAButton className="btn-primary">{t("JoinCustomerButton")}</SAButton>
+        <SAButton className="!btn-outline !btn-primary">
+          {t("SpecialProduct")}
+        </SAButton>
       </div>
     </div>
   );

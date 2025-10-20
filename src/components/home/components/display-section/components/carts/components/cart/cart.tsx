@@ -24,9 +24,11 @@ export default function Cart({
   const { t } = useChangeLanguage();
   const [isFaverit, setIsFavrit] = useState<boolean>(false);
   return (
-    <div className="flex flex-col w-1/2 md:w-1/3 xl:w-full xl:shrink shrink-0 h-full border border-yellow-500 rounded-md p-3 gap-4">
+    <div className="flex flex-col w-1/2 md:w-1/3 xl:w-full xl:shrink shrink-0 h-full neon-border-yellow rounded-md p-3 gap-4">
       <div className="flex justify-between items-center">
-        <span className="font-bold text-sm md:text-[16px]">{stoneType}</span>
+        <span className="font-bold text-sm md:text-[16px] text-shadow">
+          {stoneType}
+        </span>
         <SAImage
           className="h-10 w-10"
           style={{ backgroundImage: `url(${medal})` }}
@@ -42,13 +44,13 @@ export default function Cart({
           <FaRegStar
             onClick={() => setIsFavrit((c) => !c)}
             size={23}
-            className={`cursor-pointer ${isFaverit && "text-yellow-500"}`}
+            className={`cursor-pointer ${isFaverit && "text-yellow-400"}`}
           />
         </div>
         <SATextWithIcon text={location} icon={<FaMapMarkerAlt />} />
         <SATextWithIcon text={description} icon={<BiDetail />} />
       </div>
-      <SAButton className="border border-yellow-500 text-yellow-500 btn-outline flex items-center gap-2">
+      <SAButton className="border border-yellow-500 neon-border-yellow btn-outline flex items-center gap-2">
         {t("See-More")}
       </SAButton>
     </div>

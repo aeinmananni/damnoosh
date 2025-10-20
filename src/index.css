@@ -75,6 +75,14 @@
   border-radius: 0.5rem;
   transition: all 0.3s ease-in-out;
 }
+.neon-border-yellow {
+  border: 2px solid var(--p, #f6da3b);
+  box-shadow: 0 0 5px color-mix(in srgb, var(--p, #f6da3b) 50%, transparent),
+    0 0 10px color-mix(in srgb, var(--p, #f6da3b) 30%, transparent),
+    0 0 18px color-mix(in srgb, var(--p, #f6da3b) 15%, transparent);
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
 
 @keyframes fadeInOut {
   0%,
@@ -104,4 +112,12 @@
 
 .rotating-marker {
   animation: spin 5s linear infinite; /* 5 ثانیه برای هر چرخش */
+}
+
+
+.text-shadow{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 0 0 10px #f6da3b;
+}
+.text-shadow-primary{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 0 0 10px #3b82f6;
 }
