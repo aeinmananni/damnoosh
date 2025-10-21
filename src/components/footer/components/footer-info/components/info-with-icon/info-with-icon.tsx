@@ -9,7 +9,7 @@ type InfoWithIconProps = {
 export default function InfoWithIcon({ text, image }: InfoWithIconProps) {
   return (
     <TextWithIcon
-      className="!flex-row !items-center"
+      className="!flex-row !items-center !hidden lg:!flex"
       styles={{ textClassName: "!text-xs md:!text-sm" }}
       icon={
         <SAImage

@@ -6,18 +6,18 @@ import { TiPhoneOutline } from "react-icons/ti";
 import chatImage from "../../../../images/chat_17302780.png";
 const iconClassName = "!text-yellow-300";
 const labelClassName = "!text-yellow-400";
-const parentClassName = "col-span-2";
+const parentClassName = "col-span-1 lg:col-span-2";
 export default function Form() {
   return (
-    <form className="w-full h-full  p-3 flex flex-col justify-between items-center shadow-lg neon-border">
+    <form className="lg:w-1/2 w-full h-full   p-3 flex flex-col justify-between items-center shadow-lg neon-border shrink-0 col-span-4">
       <div className="w-full flex justify-between items-center">
         <SAImage
           style={{ backgroundImage: `url(${chatImage})` }}
-          className="w-20 h-20"
+          className="w-16 h-16 md:w-20 md:h-20"
         />
-        <span className="text-lg">{`We’re here to help you — get in touch with our team.`}</span>
+        <span className=" text-xs md:text-lg">{`We’re here to help you — get in touch with our team.`}</span>
       </div>
-      <div className="grid grid-cols-2 gap-x-2 w-full h-full  justify-center items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 w-full h-full  justify-center items-center">
         <SAInput
           styles={{ iconClassName, labelClassName }}
           label="firstName"
