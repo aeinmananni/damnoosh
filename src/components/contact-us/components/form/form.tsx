@@ -14,10 +14,7 @@ export default function Form() {
   return (
     <form className="lg:w-1/2 w-full h-full   p-3 flex flex-col justify-between items-center shadow-lg neon-border shrink-0 col-span-4">
       <div className="w-full flex justify-between items-center">
-        <SAImage
-          style={{ backgroundImage: `url(${chatImage})` }}
-          className="w-16 h-16 md:w-20 md:h-20"
-        />
+        <SAImage src={chatImage} className="w-16 h-16 md:w-20 md:h-20" />
         <span className=" text-xs md:text-lg w-3/4">{`${t("message")}`}</span>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 w-full h-full  justify-center items-center">

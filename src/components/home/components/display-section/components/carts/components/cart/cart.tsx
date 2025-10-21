@@ -29,15 +29,9 @@ export default function Cart({
         <span className="font-bold text-sm md:text-[16px] text-shadow">
           {stoneType}
         </span>
-        <SAImage
-          className="h-10 w-10"
-          style={{ backgroundImage: `url(${medal})` }}
-        />
+        <SAImage className="h-10 w-10" src={medal} />
       </div>
-      <SAImage
-        className="w-full h-full rounded-lg"
-        style={{ backgroundImage: `url(${image})` }}
-      />
+      <SAImage className="w-full h-full rounded-lg" src={image} />
       <div className="flex flex-col justify-center sm:justify-between  gap-1 w-full h-full  sm:h-2/3">
         <div className="w-full flex justify-between ">
           <SATextWithIcon text={projectName} icon={<FaBuilding />} />

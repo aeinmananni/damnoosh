@@ -10,13 +10,15 @@ import stone_image5 from '../images/stone-image5.jpg';
 import stone_image6 from '../images/stone-image6.jpg';
 import stone_image7 from '../images/stone-image7.jpg';
 import Categoires_image1 from '../images/stone-categories-images/categories-image1.jpg';
-import image1_club from '../images/customer-club-join-image/image1-club.jpg';
-import image2_club from '../images/customer-club-join-image/image2-club.jpg';
-import image3_club from '../images/customer-club-join-image/image3-club.jpg';
-import image4_club from '../images/customer-club-join-image/image4-club.jpg';
-import image5_club from '../images/customer-club-join-image/image5-club.jpg';
-import image6_club from '../images/customer-club-join-image/image6-club.jpg';
-import image7_club from '../images/customer-club-join-image/image7-club.jpg';
+import Categoires_image2 from "../images/stone-categories-images/categorise-image2.jpg";
+import Categoires_image3 from "../images/stone-categories-images/categorise-image3.jpg";
+import image1_club from "../images/customer-club-join-image/image1-club.jpg";
+import image2_club from "../images/customer-club-join-image/image2-club.jpg";
+import image3_club from "../images/customer-club-join-image/image3-club.jpg";
+import image4_club from "../images/customer-club-join-image/image4-club.jpg";
+import image5_club from "../images/customer-club-join-image/image5-club.jpg";
+import image6_club from "../images/customer-club-join-image/image6-club.jpg";
+import image7_club from "../images/customer-club-join-image/image7-club.jpg";
 import WhatsUpImage from "../images/whatsapp_1400855.png";
 import intagramImage from "../images/instagram_4923005.png";
 import phoneImage from "../images/telephone_4982273.png";
@@ -57,8 +59,8 @@ export const STONE_IMAGE_ITEMS: StoneImagesType[] = [
 
 export const STONE_CATEGORIES_ITEMS: StoneCategorisType[] = [
   { id: 1, image: Categoires_image1, text: "decorativeStones" },
-  { id: 2, image: Categoires_image1, text: "decorativeStones" },
-  { id: 3, image: Categoires_image1, text: "decorativeStones" },
+  { id: 2, image: Categoires_image2, text: "Cladding stone" },
+  { id: 3, image: Categoires_image3, text: "Building stone" },
 ];
 
 export const PROJECTS_SAMPLE: ProjectsSampleType[] = [

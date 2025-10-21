@@ -12,7 +12,7 @@ export default function CircleButtonLabel({
   return (
     <SAImage
       onClick={onClick}
-      style={{ backgroundImage: `url(${icon})` }}
+      src={icon}
       className="h-12 w-12 cursor-pointer"
     />
   );

@@ -46,10 +46,7 @@ export default function Comments() {
               }`}
             >
               <div className="flex gap-2">
-                <SAImage
-                  style={{ backgroundImage: `url(${avatar})` }}
-                  className="h-16 w-16 rounded-full"
-                />
+                <SAImage src={avatar} className="h-16 w-16 rounded-full" />
                 <small>{comment.name}</small>
               </div>
               <p className="truncate">{comment.text}</p>

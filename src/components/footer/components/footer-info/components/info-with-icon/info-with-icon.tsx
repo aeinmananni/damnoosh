@@ -11,12 +11,7 @@ export default function InfoWithIcon({ text, image }: InfoWithIconProps) {
     <TextWithIcon
       className="!flex-row !items-center !hidden lg:!flex"
       styles={{ textClassName: "!text-xs md:!text-sm" }}
-      icon={
-        <SAImage
-          style={{ backgroundImage: `url(${image})` }}
-          className="h-10 md:h-12 w-10 md:w-12"
-        />
-      }
+      icon={<SAImage src={image ?? ""} className="h-10 md:h-12 w-10 md:w-12" />}
       text={text}
     />
   );
