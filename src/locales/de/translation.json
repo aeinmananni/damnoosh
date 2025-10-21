@@ -22,5 +22,18 @@
   "Motivational-description": "Durch den Beitritt zum Club bleiben Sie über spezielle Rabatte und Projekte informiert.",
   "Contact-Information": "Kontaktinformationen",
   "WhatsApp-Link": "WhatsApp-Link",
-  "Slogan": "Erleben Sie unvergleichliche Qualität, Innovation und Eleganz mit jedem von uns gefertigten Stein — und verwandeln Sie Ihre Räume in Meisterwerke, die inspirieren und über Generationen hinweg Bestand haben."
+  "Slogan": "Erleben Sie unvergleichliche Qualität, Innovation und Eleganz mit jedem von uns gefertigten Stein — und verwandeln Sie Ihre Räume in Meisterwerke, die inspirieren und über Generationen hinweg Bestand haben.",
+  "firstName": "Vorname",
+  "lastName": "Nachname",
+  "phone": "Telefon",
+  "email": "E-Mail",
+  "description": "Beschreibung",
+  "Motivational-description2": "Wo Innovation auf die Stärke der Natur trifft — Zeitlose Schönheit aus der Kraft des Steins erschaffen.",
+  "address": "Business Bay Straße, Nr.123, Example Tower, 8. Etage, Dubai, Vereinigte Arabische Emirate",
+  "message": "Wir sind hier, um Ihnen zu helfen — Nehmen Sie Kontakt mit unserem Team auf.",
+  "placeholder-firstName": "Vornamen eingeben...",
+  "placeholder-lastName": "Nachnamen eingeben...",
+  "placeholder-phone": "Telefonnummer eingeben...",
+  "placeholder-email": "E-Mail eingeben...",
+  "placeholder-description": "Beschreibung eingeben..."
 }

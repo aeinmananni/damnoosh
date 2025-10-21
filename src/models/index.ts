@@ -50,3 +50,11 @@ export type CommentsType = {
 export type ContactType = Omit<CommentsType, "name"> & {
   info: string;
 };
+
+
+export type TimeLineType = {
+  id: number;
+  title: string;
+  text: MultiLangText;
+  exp: MultiLangText;
+};

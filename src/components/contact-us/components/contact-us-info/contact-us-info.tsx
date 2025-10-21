@@ -18,7 +18,9 @@ export default function ContectUsInfo() {
         ))}
       </div>
       <div className="flex gap-3 md:justify-between flex-col h-full">
-        <span className="text-sm md:text-xl text-shadow text-center">{`Where Innovation Meets Natural Strength — Creating Timeless Beauty from the Power of Stone.`}</span>
+        <span className="text-sm md:text-xl text-shadow text-center">
+          {t("Motivational-description2")}
+        </span>
         <SALine />
         <div className="w-full flex gap-3">
           <SAInfoWithIcon

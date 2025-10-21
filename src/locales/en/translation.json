@@ -22,5 +22,18 @@
   "Motivational-description": "By joining the club, stay informed about special discounts and projects.",
   "Contact-Information": "Contact Information",
   "WhatsApp-Link": "WhatsApp Link",
-  "Slogan": "Experience unparalleled quality, innovation, and elegance with every stone we craft — transforming your spaces into masterpieces that inspire and endure for generations."
+  "Slogan": "Experience unparalleled quality, innovation, and elegance with every stone we craft — transforming your spaces into masterpieces that inspire and endure for generations.",
+  "firstName": "firstName",
+  "lastName": "lastName",
+  "phone": "phone",
+  "email": "email",
+  "description": "description",
+  "Motivational-description2": "Where Innovation Meets Natural Strength — Creating Timeless Beauty from the Power of Stone.",
+  "address": "Business Bay St., No.123, Example Tower, 8th Floor, Dubai, United Arab Emirates",
+  "message": "We’re here to help you — get in touch with our team.",
+  "placeholder-firstName": "please enter your firstName...",
+  "placeholder-lastName": "please enter your lastName...",
+  "placeholder-phone": "please enter your phone...",
+  "placeholder-email": "please enter your email...",
+  "placeholder-description": "please enter your description..."
 }

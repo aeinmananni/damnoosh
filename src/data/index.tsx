@@ -30,6 +30,7 @@ import type {
   CommentsType,
   BlogType,
   ContactType,
+  TimeLineType,
 } from "../models";
 import blogImage1 from "../images/qulity-image1.jpg";
 import blogImage2 from "../images/blog-image2.jpg";
@@ -288,9 +289,9 @@ In the following, we will step by step explore the characteristics of good stone
     id: 2,
     image: blogImage2,
     title: {
-      ar: `الخصائص التقنية`,
-      de: `Technische Eigenschaften`,
-      en: `Technical Features`,
+      ar: `حيث يلتقي التصميم بالهندسة — استكشف ميزاتنا التقنية `,
+      de: `Wo Design auf Ingenieurskunst trifft – Entdecken Sie unsere technischen Merkmale`,
+      en: `Where Design Meets Engineering — Exploring Our Technical Features`,
     },
     exp: {
       ar: `امتصاص منخفض للماء: يجب أن يتميز الحجر المناسب للواجهات بامتصاص منخفض للماء (عادة أقل من نسبة معينة حسب نوع الحجر). الامتصاص العالي للماء يؤدي إلى التجمّد، وتكوّن الأملاح، وتقشّر السطح.
@@ -455,5 +456,148 @@ export const CONTACT_ITEMS: ContactType[] = [
     image: addressImage,
     text: "Address",
     info: "Business Bay St., No.123, Example Tower, 8th Floor, Dubai, United Arab Emirates",
+  },
+];
+
+export const TIMELINE_ITEMS: TimeLineType[] = [
+  {
+    id: 1,
+    title: "1998",
+    text: {
+      en: "Foundation of Samasang Stones",
+      de: "Gründung von Samasang Stones",
+      ar: "تأسيس شركة ساماسانج للحجارة",
+    },
+    exp: {
+      en: "The company was founded as a small family workshop specializing in cutting and polishing natural stones for local projects.",
+      de: "Das Unternehmen wurde als kleine Familienwerkstatt gegründet, die sich auf das Schneiden und Polieren von Natursteinen für lokale Projekte spezialisierte.",
+      ar: "تم تأسيس الشركة كورشة عائلية صغيرة متخصصة في قطع وتلميع الأحجار الطبيعية للمشاريع المحلية.",
+    },
+  },
+  {
+    id: 2,
+    title: "2002",
+    text: {
+      en: "Expansion to Regional Markets",
+      de: "Erweiterung auf regionale Märkte",
+      ar: "التوسع في الأسواق الإقليمية",
+    },
+    exp: {
+      en: "After gaining a strong local reputation, Samasang expanded operations to nearby regions, supplying marble and granite to large-scale construction projects.",
+      de: "Nach dem Aufbau eines starken lokalen Rufs expandierte Samasang in benachbarte Regionen und belieferte Großbauprojekte mit Marmor und Granit.",
+      ar: "بعد اكتساب سمعة محلية قوية، توسعت ساماسانج إلى المناطق المجاورة لتوريد الرخام والجرانيت للمشاريع الإنشائية الكبرى.",
+    },
+  },
+  {
+    id: 3,
+    title: "2006",
+    text: {
+      en: "Introduction of Modern Machinery",
+      de: "Einführung moderner Maschinen",
+      ar: "إدخال آلات حديثة",
+    },
+    exp: {
+      en: "New Italian and German machinery was installed to enhance precision cutting, polishing, and finishing processes.",
+      de: "Neue italienische und deutsche Maschinen wurden installiert, um Präzisionsschnitt-, Polier- und Endbearbeitungsprozesse zu verbessern.",
+      ar: "تم تركيب آلات إيطالية وألمانية جديدة لتعزيز عمليات القطع والتلميع والتشطيب بدقة عالية.",
+    },
+  },
+  {
+    id: 4,
+    title: "2010",
+    text: {
+      en: "Launch of Export Division",
+      de: "Start der Exportabteilung",
+      ar: "إطلاق قسم التصدير",
+    },
+    exp: {
+      en: "Samasang began exporting high-quality stone materials to clients in Germany, the UAE, and the United Kingdom.",
+      de: "Samasang begann mit dem Export hochwertiger Steinmaterialien an Kunden in Deutschland, den Vereinigten Arabischen Emiraten und dem Vereinigten Königreich.",
+      ar: "بدأت ساماسانج بتصدير الأحجار عالية الجودة إلى عملاء في ألمانيا والإمارات والمملكة المتحدة.",
+    },
+  },
+  {
+    id: 5,
+    title: "2014",
+    text: {
+      en: "Introduction of Design Department",
+      de: "Einführung der Designabteilung",
+      ar: "تأسيس قسم التصميم",
+    },
+    exp: {
+      en: "A creative design team was established to collaborate with architects and interior designers for modern façade and décor solutions.",
+      de: "Ein kreatives Designteam wurde gegründet, um mit Architekten und Innenarchitekten an modernen Fassaden- und Dekorlösungen zu arbeiten.",
+      ar: "تم إنشاء فريق تصميم إبداعي للتعاون مع المهندسين المعماريين ومصممي الديكور لتقديم حلول حديثة للواجهات والتصميم الداخلي.",
+    },
+  },
+  {
+    id: 6,
+    title: "2017",
+    text: {
+      en: "Smart Stone Selection System",
+      de: "Einführung des Smart Stone Selection Systems",
+      ar: "إطلاق نظام اختيار الأحجار الذكي",
+    },
+    exp: {
+      en: "Samasang developed a digital platform allowing customers to preview stone textures and patterns before purchase.",
+      de: "Samasang entwickelte eine digitale Plattform, die es Kunden ermöglicht, Steintexturen und -muster vor dem Kauf anzusehen.",
+      ar: "طورت ساماسانج منصة رقمية تتيح للعملاء معاينة أنماط وملمس الأحجار قبل الشراء.",
+    },
+  },
+  {
+    id: 7,
+    title: "2019",
+    text: {
+      en: "Sustainable Production Initiative",
+      de: "Initiative für nachhaltige Produktion",
+      ar: "مبادرة الإنتاج المستدام",
+    },
+    exp: {
+      en: "The company adopted eco-friendly production processes, reducing waste and optimizing water recycling systems.",
+      de: "Das Unternehmen führte umweltfreundliche Produktionsprozesse ein, reduzierte Abfälle und optimierte Wasserrückgewinnungssysteme.",
+      ar: "اعتمدت الشركة عمليات إنتاج صديقة للبيئة تقلل النفايات وتحسن أنظمة إعادة تدوير المياه.",
+    },
+  },
+  {
+    id: 8,
+    title: "2021",
+    text: {
+      en: "Collaboration with European Architects",
+      de: "Zusammenarbeit mit europäischen Architekten",
+      ar: "التعاون مع المهندسين المعماريين الأوروبيين",
+    },
+    exp: {
+      en: "Samasang partnered with renowned European architects to supply stones for luxury villas and commercial towers.",
+      de: "Samasang arbeitete mit renommierten europäischen Architekten zusammen, um Steine für Luxusvillen und Geschäftstürme zu liefern.",
+      ar: "تعاونت ساماسانج مع مهندسين معماريين أوروبيين مشهورين لتوريد الأحجار للفيلات الفاخرة والأبراج التجارية.",
+    },
+  },
+  {
+    id: 9,
+    title: "2023",
+    text: {
+      en: "Launch of Samasang Global Brand",
+      de: "Einführung der globalen Marke Samasang",
+      ar: "إطلاق العلامة التجارية العالمية ساماسانج",
+    },
+    exp: {
+      en: "The brand redefined its visual identity and entered new international markets, including Turkey and Saudi Arabia.",
+      de: "Die Marke definierte ihre visuelle Identität neu und trat in neue internationale Märkte ein, darunter die Türkei und Saudi-Arabien.",
+      ar: "أعادت العلامة التجارية تعريف هويتها البصرية ودخلت أسواقًا دولية جديدة، بما في ذلك تركيا والمملكة العربية السعودية.",
+    },
+  },
+  {
+    id: 10,
+    title: "2025",
+    text: {
+      en: "Future Vision — Innovation Meets Nature",
+      de: "Zukunftsvision – Innovation trifft auf Natur",
+      ar: "رؤية المستقبل — الابتكار يلتقي بالطبيعة",
+    },
+    exp: {
+      en: "Samasang continues its mission to merge innovation with natural elegance, delivering sustainable stone solutions for modern architecture.",
+      de: "Samasang setzt seine Mission fort, Innovation mit natürlicher Eleganz zu verbinden und nachhaltige Steinlösungen für moderne Architektur anzubieten.",
+      ar: "تواصل ساماسانج مهمتها في دمج الابتكار مع الجمال الطبيعي لتقديم حلول حجرية مستدامة للعمارة الحديثة.",
+    },
   },
 ];

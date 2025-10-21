@@ -1,6 +1,6 @@
 import { SALogo } from "../../../logo";
 import qualityIcon from "../../../../images/high-quality_6889423.png";
-import { SAImage } from "../../../custom";
+import { SAImage, SALine } from "../../../custom";
 
 type CartProps = {
   image: string;
@@ -11,13 +11,14 @@ type CartProps = {
 export default function Cart({ image, title, exp }: CartProps) {
   return (
     <div className="neon-border-yellow w-full h-full  flex flex-col">
-      <div className="flex w-full h-1/3 gap-3 border neon-border-yellow ">
+      <div className="flex w-full h-1/5 gap-3  ">
         <SAImage
           style={{ backgroundImage: `url(${image})` }}
-          className="w-1/3 h-full border-r neon-border-yellow shrink-0 "
+          className="w-1/4 h-full border-r neon-border-yellow shrink-0 "
         />
-        <span className="w-full p-3 ">{title}</span>
+        <span className="w-full p-3 text-shadow">{title}</span>
       </div>
+      <SALine />
       <div className="flex  gap-4 p-3 h-full overflow-hidden">
         <div className="flex flex-col justify-between h-full ">
           <SAImage

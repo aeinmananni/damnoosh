@@ -1,7 +1,5 @@
+import { SAAboutUs } from "../../components";
+
 export default function AboutUsPage() {
-  return (
-    <div>
-      <h1>About Us</h1>
-    </div>
-  );
+  return <SAAboutUs />;
 }
